@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About</title>
+        <meta name="description" content="About Krithick">
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+		 <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+   </head>
+    <body>
+        <style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #111;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background: #111;
+  transition: 0.5s;
+  border:1px solid #fff;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card h2{
+    color:#fff;
+}
+.card p{
+    color: #fff;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+  border:5px solid #fff;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: gray;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+ 
+.row{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+        </style>
+    <div class="about-section">
+  <h1>About</h1>
+  <!-- <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p> -->
+</div>
+
+<!-- <h2 style="text-align:center">Our Team</h2> -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="abt1.jpg" alt="Webpentesting" style="width:100%">
+      <div class="container">
+        <h2>Website Penetration Tester</h2>
+        <p class="title">Grey Hat Pentester</p>
+        <p>I Am a Greyhat Web-Penetration Tester I Had discovered almost 20 Bugs in Various Official Websites.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="abt2.jpg" alt="Tool Developer" style="width:100%">
+      <div class="container">
+        <h2>Python Developer</h2>
+        <p class="title">Hacking Tools Developer</p>
+        <p>I Am a Greyhat Python Developer I Had Created 5 Tools in Python for Penetration-Testing and Various Purposes And Released Them on GitHub.</p>  
+    </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="abt3.jpg" alt="web developer" style="width:100%">
+      <div class="container">
+        <h2>Web Developer</h2>
+        <p class="title">Front and Backend Developer</p>
+        <p>I Am a Intermediate Web Developer Familier With HTML,PHP And JavaScript.I Had Developed Many Websites Even My Own CTF(CAPTURE THE FLAG) Website for Public Use.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+</html>
