@@ -137,6 +137,9 @@ header #toggle:after{
     font-size: 1.2em;
     font-weight: 500;
 }
+.content a:hover{
+    scale:0.5;
+}
 .sci{
     position: absolute;
     display: flex;
