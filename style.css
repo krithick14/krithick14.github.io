@@ -197,7 +197,7 @@ header #toggle:after{
     }
     .sci{
         position: absolute;
-        bottom:50px;
+        bottom:10px;
         right: initial;
         flex-direction: row;
     }
