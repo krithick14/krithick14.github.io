@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Krithick</title>
+        <meta name="description" content="Krithick's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1;user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+		 <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script>
+        var i = 0;
+            var txt = 'HELLO WORLD !'; /* The text */
+            var speed = 70; /* The speed/duration of the effect in milliseconds */
+            
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("title").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }</script>
+    </head>
+    <body onload="typeWriter()">
+       <section class="banner" id="sec">
+           <header>
+               <a href="#" class="logo">Krithick</a>
+               <div id="toggle" onclick="toggle()"></div>
+           </header>
+           <div class="content">
+               <h2 id="title"></h2>
+               <br><h2>I am <span>Krithick</span></h2>
+                <p><b>(GREY-HAT HACKER)</b><br><br>Hi Guys, Iam a Cyber-Security Enthusiast,Web-Penetration Tester,Web-Developer and  A Python-Developer.An 18 Years Old Teenager Mad on Hacking...</p>
+                <a href="./about.html">Know More</a>
+            </div>
+       <img src="./krithick.jpeg" width="300px" height="400px" style="margin-top:50px;margin-left:100px"; class="photo">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/krithick.kalyan/" target="_blank"><img src="./facebook.png"></i></a></li>
+                <li><a href="https://twitter.com/Krithick1423" target="_blank"><img src="./twitter.png"></i></a></li>
+                <li><a href="https://www.instagram.com/_____krithick_____/" target="_blank"><img src="./instagram.png"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCuafVcvdTEir2jaXW8hhaoQ" target="_blank"><img src="./youtube.png"></i></a></li>
+                <li><a href="https://github.com/Red-Hands" target="_blank"><img src="./github.png"></i></a></li>
+            </ul>
+       </section>
+       
+       <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+       </div>
+       <script type="text/javascript">
+       function toggle(){
+           var sec = document.getElementById('sec');
+           var nav = document.getElementById('navigation');
+           sec.classList.toggle('active');
+           nav.classList.toggle('active');
+       }
+       </script>
+       
+    </body>
+</html>
