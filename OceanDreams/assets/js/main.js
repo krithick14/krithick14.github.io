@@ -1,8 +1,8 @@
 
 function get_products(category, arr) {
   // console.log(category,arr);
+  var count = 0;
   for (var item in arr) {
-    var count = 0;
     var image_path="./products/"+category+"/"+arr[item].name.toLowerCase().replace(/ /g, "")+"/"+arr[item].name.toLowerCase().replace(/ /g, "")+".jpg";
     document.getElementById(category+'-grid').innerHTML += '<div class="products-card">\
               <a href="#">\
