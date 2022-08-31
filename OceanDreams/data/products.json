@@ -1,0 +1,64 @@
+{
+    "fishes": [
+        {
+            "name": "Fish 1",
+            "cost": 100,
+            "availablity": true
+        },
+        {
+            "name": "Fish 2",
+            "cost": 200,
+            "availablity": true
+        },
+        {
+            "name": "Fish 3",
+            "cost": 300,
+            "availablity": true
+        },
+        {
+            "name": "Fish 4",
+            "cost": 400,
+            "availablity": true
+        },
+        {
+            "name": "Fish 5",
+            "cost": 500,
+            "availablity": true
+        }
+    ],
+    "tanks and accessories": [
+        {
+            "name": "Sobo Ceramic Heater",
+            "cost": 100,
+            "availablity": true
+        },
+        {
+            "name": "Sobo Slim Filter",
+            "cost": 200,
+            "availablity": true
+        },
+        {
+            "name": "Sobo 100W Light",
+            "cost": 300,
+            "availablity": true
+        },
+        {
+            "name": "Tank 4",
+            "cost": 400,
+            "availablity": true
+        },
+        {
+            "name": "Tank 5",
+            "cost": 500,
+            "availablity": true
+        }
+    ],
+    "food and supplements":
+    [
+        {
+            "name":"Amazonia Supplement",
+            "cost":100,
+            "availability":true
+        }
+    ]
+}
