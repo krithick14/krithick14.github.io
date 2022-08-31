@@ -1,5 +1,5 @@
 {
-    "fishes": [
+    "Fishes": [
         {
             "name": "Fish 1",
             "cost": 100,
@@ -26,7 +26,7 @@
             "availablity": true
         }
     ],
-    "tanks and accessories": [
+    "Tanks And Accessories": [
         {
             "name": "Sobo Ceramic Heater",
             "cost": 100,
@@ -53,7 +53,7 @@
             "availablity": true
         }
     ],
-    "food and supplements":
+    "Food And Supplements":
     [
         {
             "name":"Amazonia Supplement",
